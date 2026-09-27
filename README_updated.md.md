@@ -2,8 +2,7 @@
 
 **Uncertainty-Aware Deep Random Feature Reinforcement Learning with Online Recursive Least Squares Critic Adaptation**
 
-Urvashi Sharma, Chirag Patel*
-Department of Computer Engineering, Devang Patel Institute of Advance Technology and Research, CHARUSAT University
+
 
 ---
 
@@ -171,24 +170,14 @@ pytest tests/ -v
 ## Reproducibility Package
 
 - **Code**: this repository
-- **Paper**: `paper/verifiedresylt27sep-3.42pm.tex`
+
 - **Raw results**: `results/seeds/` (seed-level CSVs), `results/curves/` (learning curves), `results/power/` (Jetson power traces)
-- **Permanent DOI**: via Zenodo (see `CITATION.cff` and `codemeta.json`)
-- **Independent replication**: reported in the manuscript
+
+
 
 ## Citation
 
-If you use this code, please cite:
 
-```bibtex
-@article{sharma_patel_oudrvfl_2025,
-  title   = {Uncertainty Aware Deep Random Feature Reinforcement Learning with Online Recursive Least Squares Critic Adaptation},
-  author  = {Sharma, Urvashi and Patel, Chirag},
-  journal = {Manuscript},
-  year    = {2025},
-  note    = {Code: https://github.com/chirag453/OU-dRVFL-RL}
-}
-```
 
 See `CITATION.cff` for a machine-readable version.
 
@@ -198,5 +187,3 @@ Released under the MIT License. See `LICENSE`.
 
 ## Contact
 
-- Chirag Patel — chiragpatel.dce@charusat.ac.in
-- Urvashi Sharma — urvashichaudhari.dce@charusat.ac.in
