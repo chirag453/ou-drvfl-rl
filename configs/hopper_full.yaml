@@ -1,0 +1,30 @@
+env: Hopper-v4
+seed: 0
+feature:
+  depth: 2
+  width: 256
+  activation: relu
+  direct_link: true
+critic:
+  ensemble_size: 5
+  covariance: full
+  forgetting: 0.995
+  ridge: 0.001
+  bootstrap_prob: 0.8
+  prior_scale: 0.3
+  innovation_clip: 10.0
+  denom_floor: 1.0e-8
+exploration:
+  mode: ucb
+  beta: 0.1
+actor:
+  hidden_width: 256
+  lr: 3.0e-4
+  target_tau: 0.005
+  policy_delay: 2
+training:
+  total_steps: 1000000
+  replay_capacity: 1000000
+  warmup_steps: 25000
+  batch_size: 256
+  gamma: 0.99

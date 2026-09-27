@@ -1,0 +1,50 @@
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Data / large artifacts
+results/seeds/*.csv
+results/curves/*.npz
+results/power/*.json
+results/tables/*.csv
+!results/**/.gitkeep
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
